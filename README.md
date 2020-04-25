@@ -3,10 +3,7 @@
 # Datasets
 
 ## SP500_Prices
-Dataset contains time-series of S&P500 prices from 2013 to 2018.
-Contains 1259 entries with 7 attributes.
-
-###Data Samples
+Dataset contains time-series of S&P500 prices from 2013 to 2018. Contains 1259 entries with 7 attributes.
 
 |Date|Open|High|Low|Close|Adj Close|Volume|
 |---|---|---|---|---|---|---|
