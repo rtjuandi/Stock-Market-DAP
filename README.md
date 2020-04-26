@@ -2,7 +2,7 @@
 
 # Datasets
 
-## SP500_Prices
+**SP500_Prices**
 Dataset contains time-series of S&P500 prices from 2013 to 2018. Contains 1259 entries with 7 attributes.
 
 |Date|Open|High|Low|Close|Adj Close|Volume|
@@ -19,3 +19,22 @@ Dataset contains time-series of S&P500 prices from 2013 to 2018. Contains 1259 e
 |2018-02-05|2741.060059|2763.389893|2638.169922|2648.939941|2648.939941|5283460000|
 |2018-02-06|2614.780029|2701.040039|2593.070068|2695.139893|2695.139893|5891660000|
 
+
+
+**SP500_Individual**
+Dataset contains all companies, their market symbol, name, and sector. Contains 506 entries with 3 attributes
+
+|Symbol|Name|Sector|
+|---|---|---|
+|MMM|3M Company|Industrials|
+|AOS|A.O. Smith Corp|Industrials|
+|ABT|Abbott Laboratories|Health Care|
+|ABBV|AbbVie Inc.|Health Care|
+|ACN|Accenture plc|Information Technology|
+|...| | |
+|XL	XL Capital|Financials|
+|XYL|Xylem Inc.|Industrials|
+|YUM|Yum! Brands Inc|Consumer Discretionary|
+|ZBH|Zimmer|Biomet Holdings	Health Care|
+|ZION|Zions|Bancorp	Financials|
+|ZTS|Zoetis|Health Care|
