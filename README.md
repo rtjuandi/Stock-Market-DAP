@@ -2,7 +2,7 @@
 
 # Datasets
 
-**SP500_Prices**
+**SP500_Prices**\
 Dataset contains time-series of S&P500 prices from 2013 to 2018. Contains 1259 entries with 7 attributes.
 
 |Date|Open|High|Low|Close|Adj Close|Volume|
@@ -21,7 +21,7 @@ Dataset contains time-series of S&P500 prices from 2013 to 2018. Contains 1259 e
 
 
 
-**SP500_Individual**
+**SP500_Individual**\
 Dataset contains all companies, their market symbol, name, and sector. Contains 506 entries with 3 attributes
 
 |Symbol|Name|Sector|
