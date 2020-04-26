@@ -32,7 +32,6 @@ Dataset contains all companies, their market symbol, name, and sector. Contains 
 |ABBV|AbbVie Inc.|Health Care|
 |ACN|Accenture plc|Information Technology|
 |...| | |
-|XL	XL Capital|Financials|
 |XYL|Xylem Inc.|Industrials|
 |YUM|Yum! Brands Inc|Consumer Discretionary|
 |ZBH|Zimmer|Biomet Holdings	Health Care|
