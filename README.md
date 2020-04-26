@@ -22,7 +22,7 @@ Dataset contains time-series of S&P500 prices from 2013 to 2018. Contains 1259 e
 
 
 **SP500_Individual**\
-Dataset contains all companies, their market symbol, name, and sector. Contains 506 entries with 3 attributes
+Dataset contains all companies, their market symbol, name, and sector. Contains 506 entries with 3 attributes.
 
 |Symbol|Name|Sector|
 |---|---|---|
@@ -38,3 +38,39 @@ Dataset contains all companies, their market symbol, name, and sector. Contains 
 |ZBH|Zimmer|Biomet Holdings	Health Care|
 |ZION|Zions|Bancorp	Financials|
 |ZTS|Zoetis|Health Care|
+
+**all_stocks_5yr**\
+Dataset listing daily open, high, low, close, volume for each company listed in S&P500 sorted by company symbol from 2013 to 2018. Contains 619041 entries with 7 attributes.
+
+|date|open|high|low|close|volume|Name|
+|---|---|---|---|---|---|---|
+|2013-02-08|15.07|15.12|14.63|14.75|8407500|AAL|
+|2013-02-11|14.89|15.01|14.26|14.46|8882000|AAL|
+|2013-02-12|14.45|14.51|14.1|14.27|8126000|AAL|
+|2013-02-13|14.3|14.94|14.25|14.66|10259500|AAL|
+|2013-02-14|14.94|14.96|13.16|13.99|31879900|AAL|
+|...| | | | | | |
+|2018-02-01|76.84|78.27|76.69|77.82|2982259|ZTS|
+|2018-02-02|77.53|78.12|76.73|76.78|2595187|ZTS|
+|2018-02-05|76.64|76.92|73.18|73.83|2962031|ZTS|
+|2018-02-06|72.74|74.56|72.13|73.27|4924323|ZTS|
+|2018-02-07|72.7|75.0|72.69|73.86|4534912|ZTS|
+
+**indivudal_stock_5yr**\
+File contains datasets of daily open, high, low, close, volume for a company listed in S&P500. Contains 1260 entries for each company with 7 attributes.
+
+Example dataset (AMAZON):
+|date|open|high|low|close|volume|Name|
+|---|---|---|---|---|---|---|
+|2013-02-08|261.4|265.25|260.555|261.95|3879078|AMZN|
+|2013-02-11|263.2|263.25|256.6|257.21|3403403|AMZN|
+|2013-02-12|259.19|260.16|257.0|258.7|2938660|AMZN|
+|2013-02-13|261.53|269.96|260.3|269.47|5292996|AMZN|
+|2013-02-14|267.37|270.65|265.4|269.24|3462780|AMZN|
+|...| | | | | | |
+|2018-02-01|1445.0|1459.88|1385.14|1390.0|9113808|AMZN|
+|2018-02-02|1477.39|1498.0|1414.0|1429.95|11125722|AMZN|
+|2018-02-05|1402.62|1458.98|1320.72|1390.0|11494985|AMZN|
+|2018-02-06|1361.46|1443.99|1351.79|1442.84|11066819|AMZN|
+|2018-02-07|1449.0|1460.99|1415.15|1416.78|7162741|AMZN|
+
