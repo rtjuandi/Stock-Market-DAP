@@ -57,9 +57,9 @@ Dataset listing daily open, high, low, close, volume for each company listed in 
 |2018-02-07|72.7|75.0|72.69|73.86|4534912|ZTS|
 
 **indivudal_stock_5yr**\
-File contains datasets of daily open, high, low, close, volume for a company listed in S&P500. Contains 1260 entries for each company with 7 attributes.\
+File contains datasets of daily open, high, low, close, volume for a company listed in S&P500. Contains 1260 entries for each company with 7 attributes.
 
-Example dataset (AMAZON):
+\Example dataset (AMAZON):
 |date|open|high|low|close|volume|Name|
 |---|---|---|---|---|---|---|
 |2013-02-08|261.4|265.25|260.555|261.95|3879078|AMZN|
