@@ -2,7 +2,7 @@
 In this project, we would apply different machine learning models on various datasets to analyze the stock market. Datasets used are listed at the bottom.
 
 # Findings
-## DAP2: Data Pre Porcessing and Exploratory Data Analysis
+## DAP2: Data Pre-Processing and Exploratory Data Analysis
 We attempted to clean out any redundant data by checking if an entry consists of any cell that does not have a numerical value by checking if an attribute is equal to np.NaN for each dataset. Fortunately for us all our value datasets are clean and all entries are valid.
 
 We plotted close price, open price, low price, high price, and volume to the date and looked at the trends for S&P500 prices.
