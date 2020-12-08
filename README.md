@@ -2,7 +2,7 @@
 In this project, we would apply different machine learning models on various datasets to analyze the stock market. Datasets used are listed at the bottom.
 
 # Findings
-##DAP2: Data Pre Porcessing and Exploratory Data Analysis##
+## DAP2: Data Pre Porcessing and Exploratory Data Analysis
 We attempted to clean out any redundant data by checking if an entry consists of any cell that does not have a numerical value by checking if an attribute is equal to np.NaN for each dataset. Fortunately for us all our value datasets are clean and all entries are valid.
 
 We plotted close price, open price, low price, high price, and volume to the date and looked at the trends for S&P500 prices.
@@ -12,7 +12,7 @@ Further, we plotted the closing price of a company from each sector and found ou
 
 Amazon however had more drastic price movements with its prices increasing rapidly over the years. This is not due to the sector it is in. We plotted the closing price of Amazon and another relatively large company in the same sector, Nordstrom and realized that Nordstrom’s price movements are relatively similar to the other companies.
 
-##DAP3: Classification##
+## DAP3: Classification
 **Decision Trees:**\
 Performance:
 ●	60 - 70% accuracy
@@ -54,7 +54,7 @@ Overall, our accuracies usually sit in the 45 - 70 percent range across all clas
 
 Note: For the decision trees we used Ta-Lib to calculate the technical indicators for the stocks.
 
-##DAP4: Regression##
+## DAP4: Regression
 Linear Regression (Multivariate, Ridge, Lasso):
 We conducted several linear regression models on our S&P 500 Dataset.
 
@@ -72,7 +72,7 @@ Again, this is probably the because S&P500 is not very volatile and the price is
 
 Investing in S&P 500 and holding it long term would be a low risk investment as the prices are predicted to go up in years.
 
-##DAP5: Neural Networks##
+## DAP5: Neural Networks
 **Neural Network Models:**\
 We used the time series data set similar to the one we did for regression. However, instead of using the S&P 500 dataset, we decided to use Apple because the prices are better scaled than the S&P 500 prices. We forecasted for 10 days out instead of 1 day which we did for linear regression. 
 
