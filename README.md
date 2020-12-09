@@ -83,7 +83,7 @@ Each activation function resulted in differing results. Especially the loss valu
 Loss Values for Each Function:\
   Relu: 0.000773726380430162\
   Tanh: 0.0027320224326103926\
-  Sigmoid: 0.0012143859639763832\
+  Sigmoid: 0.0012143859639763832
 
 For our case, the Relu activation function seems to work best for us.
 
@@ -93,9 +93,9 @@ We conducted hyper-parameter tuning to find our best, most optimal parameters. T
 Best Params:\
 		Learning Rate: 0.0008763224455697141\
 		Num of Hidden: 1\
-		Num of Neurons: 47\
+		Num of Neurons: 47
 
-Best score: -0.006228178758950283\
+Best score: -0.006228178758950283
 Model evaluation score: 0.0012143859639763832
 
 
