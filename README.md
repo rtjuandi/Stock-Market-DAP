@@ -14,48 +14,48 @@ Amazon however had more drastic price movements with its prices increasing rapid
 
 ## DAP3: Classification
 **Decision Trees:**\
-Performance:
-●	60 - 70% accuracy
+Performance:\
+●	60 - 70% accuracy\
 
-Technical Indicators:
-●	Relative Strength Index (RSI) -> Shows overbuying and overselling
-●	Estimated Moving Average (EMA)
-●	Moving Average Convergence Divergence (MACD) 
-●	Average True Range (ATR) 
+Technical Indicators:\
+●	Relative Strength Index (RSI) -> Shows overbuying and overselling\
+●	Estimated Moving Average (EMA)\
+●	Moving Average Convergence Divergence (MACD) \
+●	Average True Range (ATR) \
 
-Indicator Rules:
-EMA signals:
-Buy: shorter-term EMA (EMA12) moves above a longer-term EMA (EMA26)
-Sell: short-term EMA (EMA2) moves below a longer-term EMA line (EMA26).
+Indicator Rules:\
+EMA signals:\
+Buy: shorter-term EMA (EMA12) moves above a longer-term EMA (EMA26)\
+Sell: short-term EMA (EMA2) moves below a longer-term EMA line (EMA26).\
 
-MACD signals:
-Signal Crossover, Zero Crossover
+MACD signals:\
+Signal Crossover, Zero Crossover\
 
 Optimal Parameters: leaf depth = 5, 30% test set
 
 **k-NN**\
-Performance:
-●	55 - 65% accuracy
+Performance:\
+●	55 - 65% accuracy\
 
-Optimal Parameters: k-neighbors = 1, 30% test set
+Optimal Parameters: k-neighbors = 1, 30% test set\
 	
 
 **Naive Bayes**\
-Performance:
-●	50 - 60% accuracy
-Attributes:
-●	Follow (whether or not if the stock is following an Upward or Downward trend i.e. going up or down multiple days in a row)
-●	Strength of Percent Change (how much the stock price changed in a day)
+Performance:\
+●	50 - 60% accuracy\
+Attributes:\
+●	Follow (whether or not if the stock is following an Upward or Downward trend i.e. going up or down multiple days in a row)\
+●	Strength of Percent Change (how much the stock price changed in a day)\
 
-Prediction:
-●	Movement (if the stock price went Up or Down since the last closing price)
+Prediction:\
+●	Movement (if the stock price went Up or Down since the last closing price)\
 
 Overall, our accuracies usually sit in the 45 - 70 percent range across all classification algorithms. For decision trees the accuracy range is about 60% - 70% which was likely a result of using technical indicators to make the decisions. Our most accurate test was the Gini decision tree, although the entropy decision tree was a close second being less than one percent off. Stocks are generally very hard to predict, and it is almost impossible to predict random events that may happen to a company. Furthermore stocks are a result of human buying and selling and it is very difficult to predict human behaviour accurately. Machine learning could be used to aid making decisions on whether to buy or sell a stock but should not be used on its own to make a decision.
 
 Note: For the decision trees we used Ta-Lib to calculate the technical indicators for the stocks.
 
 ## DAP4: Regression
-Linear Regression (Multivariate, Ridge, Lasso):
+Linear Regression (Multivariate, Ridge, Lasso):\
 We conducted several linear regression models on our S&P 500 Dataset.
 
 For multivariate linear regression, we got a Coefficient of Determination of 0.994 on our test set. This shows that it closely fits the linear regression line
@@ -63,10 +63,10 @@ For Ridge Regression and Lasso Regression we found that the regularization param
 
 This is probably because S&P500’s price is constantly going up over the years and not very volatile.
 
-Gradient Descent:
+Gradient Descent:\
 Our data covers a wide range as the cost of the S&P 500 stock constantly increased over the 5-year span we are studying. This accounts for our graphs being hard to read as the data covers a range of about $1500 - $2800. We also had to make our learning rate much smaller as the optimal rate was around 0.00000001. The data never fluctuate making our plots trend very linearly in a positive direction.
 
-Polynomial Regression Model:
+Polynomial Regression Model:\
 We came across a similar output for a polynomial regression model. The R2 score is best at 0.994 with a degree of 1. We tried a degree of 2 and the R2 score is 0.990.
 Again, this is probably the because S&P500 is not very volatile and the price is constantly increasing across the years.
 
@@ -80,22 +80,22 @@ We used two hidden layers with 100 neurons each for our neural network models us
 
 Each activation function resulted in differing results. Especially the loss value.
 
-Loss Values for Each Function:
-  Relu: 0.000773726380430162
-  Tanh: 0.0027320224326103926
-  Sigmoid: 0.0012143859639763832
+Loss Values for Each Function:\
+  Relu: 0.000773726380430162\
+  Tanh: 0.0027320224326103926\
+  Sigmoid: 0.0012143859639763832\
 
 For our case, the Relu activation function seems to work best for us.
 
 **Hyper-Parameter Tuning:**\
 We conducted hyper-parameter tuning to find our best, most optimal parameters. These are our results:
 
-Best Params:
-		Learning Rate: 0.0008763224455697141
-		Num of Hidden: 1
-		Num of Neurons: 47
+Best Params:\
+		Learning Rate: 0.0008763224455697141\
+		Num of Hidden: 1\
+		Num of Neurons: 47\
 
-Best score: -0.006228178758950283
+Best score: -0.006228178758950283\
 Model evaluation score: 0.0012143859639763832
 
 
